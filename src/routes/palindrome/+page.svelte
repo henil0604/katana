@@ -3,6 +3,10 @@
     import { unit } from "$lib/store";
 </script>
 
+<svelte:head>
+    <title>UNIT{$unit?.index} - Katana</title>
+</svelte:head>
+
 <div class="w-full h-full flex flex-col items-center py-10 pt-32 px-2">
     <h1 class="text-5xl font-extrabold tracking-tight lg:text-7xl">
         {$unit?.name}
