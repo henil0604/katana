@@ -21,9 +21,7 @@
     let valid = true;
 
     function handleSubmit() {
-        if (
-            input.toLocaleLowerCase() === `KCTF{${answer}}`.toLocaleLowerCase()
-        ) {
+        if (input.toLocaleLowerCase() === answer.toLocaleLowerCase()) {
             valid = true;
             done = true;
         } else {
@@ -56,7 +54,7 @@
                 bind:value={input}
                 on:keypress={(e) => e.keyCode === 13 && handleSubmit()}
                 type="text"
-                placeholder={`KCTF{______}`}
+                placeholder={`Write Your Answer Here...`}
                 class={!valid ? "border-red-500" : ""}
             />
             {#if !valid}
