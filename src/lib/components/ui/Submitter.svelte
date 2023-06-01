@@ -21,7 +21,9 @@
     let valid = true;
 
     function handleSubmit() {
-        if (input === `KCTF{${answer}}`) {
+        if (
+            input.toLocaleLowerCase() === `KCTF{${answer}}`.toLocaleLowerCase()
+        ) {
             valid = true;
             done = true;
         } else {
@@ -40,8 +42,6 @@
         }
         return next;
     }
-
-    console.log(getNextUnit());
 </script>
 
 <Card class="min-w-[400px] max-md:min-w-full">
