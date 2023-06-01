@@ -13,8 +13,8 @@ export const UNITS: Unit[] = [
         index: 0
     },
     {
-        name: "Palindrome",
-        id: 'palindrome',
+        name: "String.reverse",
+        id: 'string-dot-reverse',
         index: 1
     }
 ]

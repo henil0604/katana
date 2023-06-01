@@ -13,7 +13,7 @@
     </h1>
     <div class="mt-2" />
     <h3 class="text-base lg:text-xl font-semibold tracking-tight">
-        Reverse a <i>KATANA</i> maybe?
+        what about <i>KATANA</i>? maybe?
     </h3>
     <div class="mt-10" />
 
