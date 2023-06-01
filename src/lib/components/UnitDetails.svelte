@@ -6,7 +6,7 @@
 {#if $unit}
     <div
         transition:slide
-        class="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xl font-semibold"
+        class="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-xl max-md:text-sm font-semibold"
     >
         <p>UNIT{$unit.index} - {$unit.name}</p>
     </div>

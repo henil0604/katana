@@ -1,0 +1,17 @@
+<script>
+    import Submitter from "$components/ui/Submitter.svelte";
+    import { unit } from "$lib/store";
+</script>
+
+<div class="w-full h-full flex flex-col items-center py-10 pt-32 px-2">
+    <h1 class="text-5xl font-extrabold tracking-tight lg:text-7xl">
+        {$unit?.name}
+    </h1>
+    <div class="mt-2" />
+    <h3 class="text-base lg:text-xl font-semibold tracking-tight">
+        Reverse a <i>KATANA</i> maybe?
+    </h3>
+    <div class="mt-10" />
+
+    <Submitter answer={"KATANA".split("").reverse().join("")} />
+</div>

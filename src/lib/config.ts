@@ -12,4 +12,11 @@ export const UNITS: Unit[] = [
         id: 'welcome',
         index: 0
     },
+    {
+        name: "Palindrome",
+        id: 'palindrome',
+        index: 1
+    }
 ]
+
+export const DONE_ID = "done"

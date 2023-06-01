@@ -28,7 +28,7 @@
         <div class="mt-2" />
         <h3
             in:fade={{ delay: 1000 }}
-            class="text-xl font-semibold tracking-tight"
+            class="text-xl px-3 font-semibold tracking-tight"
         >
             We provide monthly dose of CTF challenges
         </h3>
