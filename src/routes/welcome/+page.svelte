@@ -37,11 +37,11 @@
         <div class="mt-6" />
         <div
             class="w-1/2 max-md:w-full px-3 flex justify-center flex-col"
-            in:fade={{ delay: 2000 }}
+            in:fade={{ delay: 1500 }}
         >
             {#each instructions as instruction, i}
                 <div
-                    in:fade={{ delay: i * 1000 + 2000 }}
+                    in:fade={{ delay: i * 200 + 1500 }}
                     class="mb-3 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
                 >
                     <span
@@ -58,7 +58,7 @@
 
         <div class="mt-6" />
 
-        <div in:fade={{ delay: 2000 + instructions.length * 1000 }}>
+        <div in:fade={{ delay: 1500 + instructions.length * 200 }}>
             <Button href="/{getUnitConfig(1)?.id}">Go to Next UNIT</Button>
         </div>
     </div>

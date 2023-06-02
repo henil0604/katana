@@ -16,6 +16,11 @@ export const UNITS: Unit[] = [
         name: "String.reverse",
         id: 'string-dot-reverse',
         index: 1
+    },
+    {
+        name: "btoa",
+        id: 'btoa',
+        index: 2
     }
 ]
 
